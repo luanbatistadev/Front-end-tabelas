@@ -1,3 +1,20 @@
-.tabela{
-    
+.tabela,
+.tabela td,
+.tabela th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.tabela td,
+.tabela th {
+    padding: 10px;
+}
+
+.tabela {
+    width: 100%;
+}
+
+.tabela th {
+    color: #f1f1f1;
+    background-color: #010101;
 }
