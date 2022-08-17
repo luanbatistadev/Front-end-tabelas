@@ -18,3 +18,15 @@
     color: #f1f1f1;
     background-color: #010101;
 }
+
+.tabela tr:nth-child(odd) {
+    background-color: #cecece;
+}
+
+.tabela tr:hover {
+    background-color: #c6ca88;
+}
+
+.container-tabela{
+    overflow-x: auto;
+}
